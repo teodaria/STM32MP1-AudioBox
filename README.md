@@ -10,7 +10,7 @@ The project is based on two main items:
 	* Headphones connector
 	* Simple analog circuitry to properly handle the signals (more work to be done here to add input gain control and headphones gain)
 The board has been designed using KiCad EDA: A Cross Platform and Open Source Electronics Design Automation Suite.
-The sources for the hardware is freely available in this repository.
+The sources for the hardware is freely available [here](https://github.com/teodaria/audio_hw_if).
 * A **custom linux distribution** based on Open Embedded, which integrates:
 	* Standard OE/Yocto [BSP layer from STMicroelectronics](https://github.com/STMicroelectronics/meta-st-stm32mp)
 	* [Custom OE layer](https://github.com/teodaria/meta-audiobox-kernel) containing kernel patch for the ASoC codec driver and the linux device tree 
