@@ -1,6 +1,6 @@
 # STM32MP1-AudioBox
 
-[Go to the QuickStart guide]() 
+Jump to the [Quick Start guide](https://github.com/teodaria/STM32MP1-AudioBox/wiki/Quick-Start-guide) 
 
 **STM32MP1-AudioBox** is a project built around [**STM32MP157C-DK2**](https://www.st.com/en/evaluation-tools/stm32mp157c-dk2.html) development board which adds an audio interface for musical instruments to the MP1 development kit.
 
@@ -30,18 +30,19 @@ Here's a summary of the repositories and useful links:
 
 |Links|
 | --- |
-|[Go to the QuickStart guide]()|
-|Main [manifest](https://github.com/teodaria/MP1-audiobox-manifest)|
-|[STM32MP157C-DK2](https://www.st.com/en/evaluation-tools/stm32mp157c-dk2.html) evaluation board|
-|Standard OE/Yocto [BSP layer from STMicroelectronics](https://github.com/STMicroelectronics/meta-st-stm32mp)|
-|[Custom OE layer](https://github.com/teodaria/meta-audiobox-kernel) for the kernel patches|
-|[Custom OE layer](https://github.com/teodaria/meta-audiobox-distro) containing images and distribution definitions|
-|[meta-musicians OE layer](https://github.com/schnitzeltony/meta-musicians)|
-|[OpenEmbedded Git Repository](https://git.openembedded.org/)|
+|[QuickStart guide](https://github.com/teodaria/STM32MP1-AudioBox/wiki/Quick-Start-guide)|
+|Main [manifest](https://github.com/teodaria/MP1-audiobox-manifest) with all the layers|
+|Custom meta-audiobox-kernel [layer](https://github.com/teodaria/meta-audiobox-kernel) for the kernel patches|
+|Custom meta-audiobox-distro [layer](https://github.com/teodaria/meta-audiobox-distro) containing images and distribution definitions|
+|Standard OE/Yocto [BSP layer](https://github.com/STMicroelectronics/meta-st-stm32mp) from STMicroelectronics|
+|meta-musicians [layer](https://github.com/schnitzeltony/meta-musicians)|
+|OpenEmbedded [Git Repository](https://git.openembedded.org/)|
 |[QT5 layer](https://github.com/meta-qt5/meta-qt5)|
+|[STM32MP157C-DK2](https://www.st.com/en/evaluation-tools/stm32mp157c-dk2.html) evaluation board webpage (for information, schematics, documents...)|
 
-
+3D model used during development for checking mechanical constraints:
 ![image info](./img/AudioBoxRender.png)
+Photos:
 ![image info](./img/board_1.jpg)
 ![image info](./img/board_2.jpg)
 
