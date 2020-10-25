@@ -5,7 +5,7 @@ Jump to the [Quick Start guide](https://github.com/teodaria/STM32MP1-AudioBox/wi
 **STM32MP1-AudioBox** is a project built around [**STM32MP157C-DK2**](https://www.st.com/en/evaluation-tools/stm32mp157c-dk2.html) development board which adds an audio interface for musical instruments to the MP1 development kit.
 
 The project is based on two main items:
-* A **custom sound card** based on the codec [AD1938](https://www.analog.com/media/en/technical-documentation/data-sheets/AD1938.pdf) by Analog Devices, which integrates the codec itself, the input and output connectors as well as a 40 pin connector to plug this piece of hardware on the STM32MP157C-DK2 board. The main features of the board are:
+* A **custom sound card** based on the codec [AD1938](https://www.analog.com/media/en/technical-documentation/data-sheets/AD1938.pdf) by Analog Devices, which integrates the codec itself, the input and output connectors as well as a 40 pin connector to plug this audio card on the STM32MP157C-DK2 board. The main features of the board are:
 	* AD1938 codec
 	* 2 inputs connectors
 	* 2 otputs connectors
